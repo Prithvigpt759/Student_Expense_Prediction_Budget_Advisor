@@ -1,4 +1,6 @@
-# Pennywise — Student Money Companion
+# Pennywise — Student Expense Prediction & Budget Advisor
+
+**Live Demo:** https://studentexpensepredictionbudgetadvisor-dx58njadhj5fstgdqscu9v.streamlit.app/
 
 ## Run on Windows
 Open this folder in VS Code. In its terminal, run:
