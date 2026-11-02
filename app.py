@@ -43,7 +43,7 @@ with st.sidebar:
 st.info(f"Viewing **{source_label}** · {len(data):,} records")
 
 # Friendly navigation rather than technical/course terminology.
-pages = st.tabs(["🏠 Overview", "📊 Spending Insights", "🔮 Expense Estimate", "🔔 Spending Alerts", "🗓️ Monthly Outlook", "💰 Plan My Budget"])
+pages = st.tabs(["Overview", "Spending Insights", "Expense Estimate", "Spending Alerts", "Monthly Outlook", "Plan My Budget"])
 
 with pages[0]:
     st.subheader("Your monthly snapshot")
