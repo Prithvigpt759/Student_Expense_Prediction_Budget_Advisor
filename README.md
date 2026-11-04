@@ -2,6 +2,8 @@
 
 A beginner-friendly Streamlit project for exploring monthly student expenses, reviewing data quality and IQR outliers, estimating a future month's expenses with a Random Forest Regressor, and planning a budget.
 
+Live Demo: https://studentexpensepredictionbudgetadvisor-dx58njadhj5fstgdqscu9v.streamlit.app/
+
 > **Dataset note:** `data/sample_monthly_expenses.csv` is synthetic sample data (30 student IDs across 18 months). Do not describe it as real student financial records.
 
 ## Run on Windows (VS Code terminal)
