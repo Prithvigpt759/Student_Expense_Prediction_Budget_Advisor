@@ -1,0 +1,50 @@
+{
+  "model": "Random Forest Regressor",
+  "features": [
+    "monthly_income",
+    "budget",
+    "month_number",
+    "previous_month_expenses"
+  ],
+  "target": "total_expenses (sum of cleaned expense categories)",
+  "split_method": "GroupShuffleSplit by student_id (80% train groups / 20% test groups)",
+  "train_rows": 408,
+  "test_rows": 102,
+  "train_students": 24,
+  "test_students": 6,
+  "mae": 598.7322652329487,
+  "rmse": 723.5268679374157,
+  "r2": -0.04957312336455111,
+  "baseline_mae": 580.7827076124566,
+  "baseline_rmse": 708.8325034440301,
+  "cleaning": {
+    "rows_before": 540,
+    "duplicate_rows": 0,
+    "negative_category_values": {
+      "housing": 0,
+      "food": 0,
+      "transport": 0,
+      "books_supplies": 0,
+      "entertainment": 5,
+      "miscellaneous": 1
+    },
+    "missing_values_before": {
+      "student_id": 0,
+      "month": 0,
+      "monthly_income": 0,
+      "budget": 0,
+      "housing": 0,
+      "food": 0,
+      "transport": 0,
+      "books_supplies": 0,
+      "entertainment": 0,
+      "miscellaneous": 0,
+      "total_expenses": 0
+    },
+    "missing_values_after_cleaning": 0,
+    "rows_after": 540,
+    "rows_removed": 0,
+    "negative_values_fixed": 6
+  },
+  "interpretation": "Compare MAE/RMSE with the baseline. A negative R\u00b2 means this model did not beat predicting the training-set mean on this holdout sample. Do not describe the model as highly accurate unless metrics support that claim."
+}
